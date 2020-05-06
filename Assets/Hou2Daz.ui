@@ -65,7 +65,7 @@
    </property>
    <widget class="QWidget" name="tab_6">
     <attribute name="title">
-     <string>Main</string>
+     <string>                 Main              </string>
     </attribute>
     <widget class="QTabWidget" name="tabWidget">
      <property name="geometry">
@@ -464,7 +464,7 @@
    </widget>
    <widget class="QWidget" name="tab_7">
     <attribute name="title">
-     <string>Help</string>
+     <string>                Help                  </string>
     </attribute>
     <widget class="QLabel" name="lbl_help">
      <property name="geometry">
