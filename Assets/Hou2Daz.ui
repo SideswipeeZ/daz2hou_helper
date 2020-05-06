@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>D2H</class>
+ <widget class="QWidget" name="D2H">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>579</width>
+    <height>769</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbl_Header">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>261</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Header_Daz2Hou</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_ver">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ver: 0.65</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>120</y>
+     <width>272</width>
+     <height>505</height>
+    </rect>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::South</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideLeft</enum>
+   </property>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Main</string>
+    </attribute>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>50</y>
+       <width>251</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Subnet/GEO</string>
+      </attribute>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>-1</y>
+         <width>251</width>
+         <height>409</height>
+        </rect>
+       </property>
+       <property name="tabPosition">
+        <enum>QTabWidget::South</enum>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Tools</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>240</y>
+           <width>231</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Scale Settings</string>
+         </property>
+         <widget class="QPushButton" name="bttn_scale_001">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>30</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>0.01</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bttn_scale_01">
+          <property name="geometry">
+           <rect>
+            <x>85</x>
+            <y>30</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>0.1</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bttn_scale_1">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>61</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>1.0</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>211</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Subnet: Changes Uniform Scale.&lt;/p&gt;&lt;p&gt;Geometry: Creates Uniform Scale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>10</y>
+           <width>231</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Geometry Settings</string>
+         </property>
+         <widget class="QRadioButton" name="rdo_Arnold">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>50</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Convert to Arnold Materials</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bttn_SelectSubnet">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>110</y>
+            <width>211</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Create GEO from Subnet</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="rdo_Redshift">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Convert to Redshift Materials</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="rdo_nochange">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>No Material Conversion.</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="bttn_lockObjMerges">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>170</y>
+            <width>211</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Lock Geo (Object Merge) Nodes</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Preview</string>
+        </attribute>
+        <widget class="QListWidget" name="lst_preview">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>221</width>
+           <height>271</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="bttn_PreviewSubnet">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>320</y>
+           <width>221</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Show Subnet Geometry</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="bttn_clearList">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>221</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Clear List</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Material</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>221</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Conversion</string>
+       </property>
+       <widget class="QPushButton" name="bttn_conTex">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Convert Materials to Arnold</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bttn_conTex2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Convert Materials to Redshift</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>221</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Create Shaders</string>
+       </property>
+       <widget class="QPushButton" name="bttn_Arnold_skin">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Create Arnold Skin Shader</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bttn_Arnold_Hair">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Create Arnold Hair Shader</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Experimental</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>221</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Hair Tools</string>
+       </property>
+       <widget class="QPushButton" name="bttn_createHairGeo">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Geo (VDB+Density) (Groom)</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>221</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Rigging Tools</string>
+       </property>
+       <widget class="QPushButton" name="bttn_createRig">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Create Rig Control from Subnet</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="bttn_ImportFBX">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Import FBX</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Help</string>
+    </attribute>
+    <widget class="QLabel" name="lbl_help">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>270</width>
+       <height>485</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Help.</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
